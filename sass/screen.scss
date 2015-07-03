@@ -15,16 +15,15 @@
 
 /*top content div with barrels img*/
 .container-top{
-  margin: 0 auto;
   background: url("../images/background-top.jpg") center top no-repeat;
   background-size: 100% 100%;
   height: 868px;
+  width: 100%;
 }
 
 /*header style*/
 header{
   height: 156px;
-  width: 100%;
   /*background-color: #fff;*/
   /*opacity: 0.25;*/
 }
@@ -33,11 +32,22 @@ header{
 .logo{
   margin: 7px 0 0 23px;
 }
+
 /*menu right button*/
 .menu{
   float: right;
   margin: 63px 41px 0 0;
 }
+
+/*overlay container style*/
+.overlay{
+  background-color: #789964;
+  height: 164px;
+  margin-top: 630px;
+  z-index: 2;
+  opacity: 0.25;
+}
+
 /*container-bottom style*/
 .container-bottom{
   background: url("../images/background-galery.jpg") center top no-repeat;
