@@ -52,12 +52,20 @@ header{
 
 /*overlay containers style*/
 .overlay{
-    background-color: #789964;
-    height: 164px;
-    margin-top: 630px;
-    z-index: 2;
-    opacity: 0.25;
-  }
+  background-color: #789964;
+  height: 164px;
+  margin-top: 630px;
+  z-index: 2;
+  background: rgba(120, 153, 100, 0.25);
+  padding-top: 20px;
+}
+.bootleggers{
+  font-family: HandVetica, sans-serif;
+  font-size: 36px;
+  color: #fff;
+  margin: 25px 0 25px 115px;
+
+}
 .overlay-bot{
   background-color: #789964;
   width: 100%;
