@@ -65,12 +65,21 @@ header{
 
 /*overlay containers style*/
 .overlay{
-  height: 164px;
+  height: 60px;
   margin-top: 489px;
   z-index: 2;
   background: rgba(120, 153, 100, 0.25);
   padding-top: 20px;
 }
+/*app buttons*/
+ul{
+  float: right;
+  margin-top: -20px;
+}
+li{
+  display: inline;
+}
+
 .bootleggers{
   font-family: HandVetica, sans-serif;
   font-size: 36px;
