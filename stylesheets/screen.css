@@ -85,7 +85,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* line 22, ../sass/screen.scss */
 .container-top {
   background: url("../images/background-top.jpg") center top no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
   height: 868px;
   width: 100%;
 }
@@ -115,25 +115,23 @@ header {
 .subscribe {
   text-align: center;
 }
-
-/* line 50, ../sass/screen.scss */
-.game-logo {
-  border: 1px solid #000;
-  -webkit-border-radius: 25px;
-  -moz-border-radius: 25px;
+/* line 49, ../sass/screen.scss */
+.subscribe .game-logo {
+  border: 1px dashed #000;
   border-radius: 25px;
   box-shadow: 10px 10px 10px black;
 }
-
-/* line 58, ../sass/screen.scss */
-.sub-title {
+/* line 55, ../sass/screen.scss */
+.subscribe .sub-title {
   font-size: 36px;
   font-family: Helvetica, sans-serif;
   color: #f4f8f4;
 }
+/* line 60, ../sass/screen.scss */
+.subscribe .sub-input {
+  margin: 0 auto;
+}
 
-/*start input*/
-/*end input*/
 /*end subscribe*/
 /*overlay containers style*/
 /* line 69, ../sass/screen.scss */
@@ -183,7 +181,7 @@ header {
 /* line 107, ../sass/screen.scss */
 .container-bottom {
   background: url("../images/background-galery.jpg") center top no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
   height: 800px;
 }
 
@@ -197,35 +195,30 @@ footer {
   font-family: Helvetica_CY_Bold, sans-serif;
   color: #f7fbfa;
 }
-
-/* line 124, ../sass/screen.scss */
-.contact {
+/* line 122, ../sass/screen.scss */
+footer .contact {
   height: 302px;
   padding-top: 40px;
 }
-
-/* line 129, ../sass/screen.scss */
-.contact-info {
+/* line 127, ../sass/screen.scss */
+footer .contact-info {
   text-transform: uppercase;
   line-height: 2;
 }
-
-/* line 134, ../sass/screen.scss */
-.contact-mail {
+/* line 132, ../sass/screen.scss */
+footer .contact-mail {
   text-decoration: none;
   color: #f7fbfa;
   padding-left: 165px;
 }
-
-/* line 140, ../sass/screen.scss */
-.mail-logo {
+/* line 138, ../sass/screen.scss */
+footer .mail-logo {
   text-align: center;
   padding-top: 20px;
   padding-left: 55px;
 }
-
-/* line 146, ../sass/screen.scss */
-.rights {
+/* line 144, ../sass/screen.scss */
+footer .rights {
   font-family: Calibri, sans-serif;
   font-size: 30px;
   display: inline-block;

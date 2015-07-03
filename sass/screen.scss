@@ -21,7 +21,7 @@
 /*top content div with barrels img*/
 .container-top{
   background: url("../images/background-top.jpg") center top no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
   height: 868px;
   width: 100%;
 }
@@ -46,23 +46,23 @@ header{
 /*start subscribe*/
 .subscribe{
   text-align: center;
-}
-.game-logo{
-  border: 1px solid #000;
-  -webkit-border-radius: 25px;
-  -moz-border-radius: 25px;
-  border-radius: 25px;
-  box-shadow: 10px 10px 10px black;
+    .game-logo{
+      border: 1px dashed #000;
+      border-radius: 25px;
+      box-shadow: 10px 10px 10px black;
 
+    }
+    .sub-title{
+      font-size: 36px;
+      font-family: Helvetica, sans-serif;
+      color: rgb( 244, 248, 244 );
+    }
+    .sub-input{
+      margin: 0 auto;
+    }
 }
-.sub-title{
-    font-size: 36px;
-    font-family: Helvetica, sans-serif;
-    color: rgb( 244, 248, 244 );
-}
-/*start input*/
 
-/*end input*/
+
 /*end subscribe*/
 
 /*overlay containers style*/
@@ -106,7 +106,7 @@ header{
 /*container-bottom style*/
 .container-bottom{
   background: url("../images/background-galery.jpg") center top no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
   height: 800px;
 }
 
@@ -119,36 +119,36 @@ footer{
   font-size: 36px;
   font-family: Helvetica_CY_Bold, sans-serif;
   color: #f7fbfa;
+    .contact{
+      height: 302px;
+      padding-top: 40px;
+    }
+
+    .contact-info{
+      text-transform: uppercase;
+      line-height: 2;
+    }
+
+    .contact-mail{
+      text-decoration: none;
+      color: #f7fbfa;
+      padding-left: 165px;
+    }
+
+    .mail-logo{
+      text-align: center;
+      padding-top: 20px;
+      padding-left: 55px;
+    }
+
+    .rights{
+      font-family: Calibri, sans-serif;
+      font-size: 30px;
+      display: inline-block;
+      width: 100%;
+      height: 54px;
+      padding-top: 16px;
+      background-color: #789964;
+    }
 }
 
-.contact{
-  height: 302px;
-  padding-top: 40px;
-}
-
-.contact-info{
-  text-transform: uppercase;
-  line-height: 2;
-}
-
-.contact-mail{
- text-decoration: none;
- color: #f7fbfa;
- padding-left: 165px;
-}
-
-.mail-logo{
- text-align: center;
- padding-top: 20px;
- padding-left: 55px;
-}
-
-.rights{
- font-family: Calibri, sans-serif;
- font-size: 30px;
- display: inline-block;
- width: 100%;
- height: 54px;
- padding-top: 16px;
- background-color: #789964;
-}
