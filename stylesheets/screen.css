@@ -132,9 +132,11 @@ header {
   color: #f4f8f4;
 }
 
+/*start input*/
+/*end input*/
 /*end subscribe*/
 /*overlay containers style*/
-/* line 66, ../sass/screen.scss */
+/* line 69, ../sass/screen.scss */
 .overlay {
   height: 60px;
   margin-top: 489px;
@@ -144,23 +146,22 @@ header {
 }
 
 /*app buttons*/
-/* line 74, ../sass/screen.scss */
+/* line 77, ../sass/screen.scss */
 .app-load {
   float: right;
-  margin-top: 0;
 }
 
-/* line 79, ../sass/screen.scss */
+/* line 81, ../sass/screen.scss */
 .app-load li {
   display: inline;
   padding: 0 15px 10px 0;
 }
-/* line 83, ../sass/screen.scss */
+/* line 85, ../sass/screen.scss */
 .app-load .btn-load {
   border-radius: 7px;
 }
 
-/* line 88, ../sass/screen.scss */
+/* line 90, ../sass/screen.scss */
 .bootleggers {
   font-family: HandVetica, sans-serif;
   font-size: 36px;
@@ -168,7 +169,7 @@ header {
   margin: 25px 0 25px 115px;
 }
 
-/* line 95, ../sass/screen.scss */
+/* line 97, ../sass/screen.scss */
 .overlay-bot {
   background-color: #789964;
   width: 100%;
@@ -179,7 +180,7 @@ header {
 }
 
 /*container-bottom style*/
-/* line 105, ../sass/screen.scss */
+/* line 107, ../sass/screen.scss */
 .container-bottom {
   background: url("../images/background-galery.jpg") center top no-repeat;
   background-size: 100% 100%;
@@ -188,7 +189,7 @@ header {
 
 /*------------------------------------------------------*/
 /*footer*/
-/* line 114, ../sass/screen.scss */
+/* line 116, ../sass/screen.scss */
 footer {
   background-color: #00745c;
   text-align: center;
@@ -197,33 +198,33 @@ footer {
   color: #f7fbfa;
 }
 
-/* line 122, ../sass/screen.scss */
+/* line 124, ../sass/screen.scss */
 .contact {
   height: 302px;
   padding-top: 40px;
 }
 
-/* line 127, ../sass/screen.scss */
+/* line 129, ../sass/screen.scss */
 .contact-info {
   text-transform: uppercase;
   line-height: 2;
 }
 
-/* line 132, ../sass/screen.scss */
+/* line 134, ../sass/screen.scss */
 .contact-mail {
   text-decoration: none;
   color: #f7fbfa;
   padding-left: 165px;
 }
 
-/* line 138, ../sass/screen.scss */
+/* line 140, ../sass/screen.scss */
 .mail-logo {
   text-align: center;
   padding-top: 20px;
   padding-left: 55px;
 }
 
-/* line 144, ../sass/screen.scss */
+/* line 146, ../sass/screen.scss */
 .rights {
   font-family: Calibri, sans-serif;
   font-size: 30px;
