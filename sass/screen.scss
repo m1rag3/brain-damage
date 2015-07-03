@@ -4,6 +4,10 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 @import "compass/reset";
+@font-face {
+  font-family: Helvetica;
+  src: url(../fonts/Helvetica_CY_Bold.ttf);
+}
 
 /*top content div with barrels img*/
 .container-top{
@@ -12,6 +16,14 @@
   background-size: 100% 100%;
 }
 
+/*header style*/
+header{
+  height: 296px;
+  width: 100%;
+  background-color: #fff;
+  opacity: 0.25;
+  z-index: 1;
+}
 
 /*footer*/
 footer{
