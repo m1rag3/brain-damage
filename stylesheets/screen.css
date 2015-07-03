@@ -135,22 +135,26 @@ footer {
 .contact-info {
   text-transform: uppercase;
   line-height: 2;
+  margin-top: 55px;
+  margin-bottom: 40px;
 }
 
-/* line 65, ../sass/screen.scss */
+/* line 67, ../sass/screen.scss */
 .contact-mail {
   text-decoration: none;
   color: #f7fbfa;
-  margin-right: 50px;
+  padding-left: 165px;
   margin-bottom: 44px;
 }
 
-/* line 71, ../sass/screen.scss */
+/* line 73, ../sass/screen.scss */
 .mail-logo {
+  text-align: center;
   padding-top: 20px;
+  padding-left: 55px;
 }
 
-/* line 74, ../sass/screen.scss */
+/* line 79, ../sass/screen.scss */
 .rights {
   font-family: Calibri, sans-serif;
   font-size: 30px;
