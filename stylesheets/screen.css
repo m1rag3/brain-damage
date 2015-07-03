@@ -90,8 +90,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 header {
   height: 156px;
   width: 100%;
-  background-color: #fff;
-  opacity: 0.25;
+  /*background-color: #fff;*/
+  /*opacity: 0.25;*/
 }
 
 /*img logo left*/
