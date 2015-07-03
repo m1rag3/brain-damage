@@ -45,7 +45,7 @@ header{
 
 /*start subscribe*/
 .subscribe{
-
+  text-align: center;
 }
 .game-logo{
   border: 1px solid #000;
@@ -72,12 +72,18 @@ header{
   padding-top: 20px;
 }
 /*app buttons*/
-ul{
+.app-load{
   float: right;
-  margin-top: -20px;
+  margin-top: -40px;
 }
-li{
-  display: inline;
+.app-load{
+  li{
+    display: inline;
+    padding: 0 15px 10px 0;
+  }
+  .btn-load{
+    border-radius: 7px;
+  }
 }
 
 .bootleggers{
