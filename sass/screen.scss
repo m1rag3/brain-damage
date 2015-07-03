@@ -4,9 +4,14 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 @import "compass/reset";
+/*fonts*/
 @font-face {
   font-family: Helvetica;
   src: url(../fonts/Helvetica_CY_Bold.ttf);
+}
+@font-face {
+  font-family: HandVetica;
+  src: url(../fonts/HandVetica.ttf);
 }
 
 .clearfix{
@@ -73,24 +78,29 @@ footer{
   font-family: Helvetica, sans-serif;
   color: #f7fbfa;
 }
+
 .contact{
   height: 302px;
   padding-top: 40px;
 }
+
 .contact-info{
   text-transform: uppercase;
   line-height: 2;
 }
+
 .contact-mail{
  text-decoration: none;
  color: #f7fbfa;
  padding-left: 165px;
 }
+
 .mail-logo{
  text-align: center;
  padding-top: 20px;
  padding-left: 55px;
 }
+
 .rights{
  font-family: Calibri, sans-serif;
  font-size: 30px;

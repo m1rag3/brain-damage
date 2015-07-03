@@ -67,17 +67,22 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
+/*fonts*/
 @font-face {
   font-family: Helvetica;
   src: url(../fonts/Helvetica_CY_Bold.ttf);
 }
-/* line 12, ../sass/screen.scss */
+@font-face {
+  font-family: HandVetica;
+  src: url(../fonts/HandVetica.ttf);
+}
+/* line 17, ../sass/screen.scss */
 .clearfix {
   clear: both;
 }
 
 /*top content div with barrels img*/
-/* line 17, ../sass/screen.scss */
+/* line 22, ../sass/screen.scss */
 .container-top {
   background: url("../images/background-top.jpg") center top no-repeat;
   background-size: 100% 100%;
@@ -86,7 +91,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 /*header style*/
-/* line 25, ../sass/screen.scss */
+/* line 30, ../sass/screen.scss */
 header {
   height: 156px;
   /*background-color: #fff;*/
@@ -94,20 +99,20 @@ header {
 }
 
 /*img logo left*/
-/* line 32, ../sass/screen.scss */
+/* line 37, ../sass/screen.scss */
 .logo {
   margin: 7px 0 0 23px;
 }
 
 /*menu right button*/
-/* line 37, ../sass/screen.scss */
+/* line 42, ../sass/screen.scss */
 .menu {
   float: right;
   margin: 63px 41px 0 0;
 }
 
 /*overlay containers style*/
-/* line 43, ../sass/screen.scss */
+/* line 48, ../sass/screen.scss */
 .overlay {
   background-color: #789964;
   height: 164px;
@@ -116,7 +121,7 @@ header {
   opacity: 0.25;
 }
 
-/* line 50, ../sass/screen.scss */
+/* line 55, ../sass/screen.scss */
 .overlay-bot {
   background-color: #789964;
   width: 100%;
@@ -127,7 +132,7 @@ header {
 }
 
 /*container-bottom style*/
-/* line 60, ../sass/screen.scss */
+/* line 65, ../sass/screen.scss */
 .container-bottom {
   background: url("../images/background-galery.jpg") center top no-repeat;
   background-size: 100% 100%;
@@ -136,7 +141,7 @@ header {
 
 /*------------------------------------------------------*/
 /*footer*/
-/* line 69, ../sass/screen.scss */
+/* line 74, ../sass/screen.scss */
 footer {
   background-color: #00745c;
   text-align: center;
@@ -145,33 +150,33 @@ footer {
   color: #f7fbfa;
 }
 
-/* line 76, ../sass/screen.scss */
+/* line 82, ../sass/screen.scss */
 .contact {
   height: 302px;
   padding-top: 40px;
 }
 
-/* line 80, ../sass/screen.scss */
+/* line 87, ../sass/screen.scss */
 .contact-info {
   text-transform: uppercase;
   line-height: 2;
 }
 
-/* line 84, ../sass/screen.scss */
+/* line 92, ../sass/screen.scss */
 .contact-mail {
   text-decoration: none;
   color: #f7fbfa;
   padding-left: 165px;
 }
 
-/* line 89, ../sass/screen.scss */
+/* line 98, ../sass/screen.scss */
 .mail-logo {
   text-align: center;
   padding-top: 20px;
   padding-left: 55px;
 }
 
-/* line 94, ../sass/screen.scss */
+/* line 104, ../sass/screen.scss */
 .rights {
   font-family: Calibri, sans-serif;
   font-size: 30px;
