@@ -39,7 +39,7 @@ header{
   margin: 63px 41px 0 0;
 }
 
-/*overlay container style*/
+/*overlay containers style*/
 .overlay{
     background-color: #789964;
     height: 164px;
@@ -47,6 +47,14 @@ header{
     z-index: 2;
     opacity: 0.25;
   }
+.overlay-bot{
+  background-color: #789964;
+  width: 100%;
+  height: 39px;
+  position: absolute;
+  margin-top: 781px;
+  opacity: 0.75;
+}
 
 /*container-bottom style*/
 .container-bottom{
@@ -67,12 +75,11 @@ footer{
 }
 .contact{
   height: 352px;
+  padding-top: 40px;
 }
 .contact-info{
   text-transform: uppercase;
   line-height: 2;
-  margin-top: 55px;
-  margin-bottom: 40px;
 }
 .contact-mail{
  text-decoration: none;

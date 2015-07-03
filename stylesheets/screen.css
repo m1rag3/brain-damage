@@ -106,7 +106,7 @@ header {
   margin: 63px 41px 0 0;
 }
 
-/*overlay container style*/
+/*overlay containers style*/
 /* line 43, ../sass/screen.scss */
 .overlay {
   background-color: #789964;
@@ -116,8 +116,18 @@ header {
   opacity: 0.25;
 }
 
+/* line 50, ../sass/screen.scss */
+.overlay-bot {
+  background-color: #789964;
+  width: 100%;
+  height: 39px;
+  position: absolute;
+  margin-top: 781px;
+  opacity: 0.75;
+}
+
 /*container-bottom style*/
-/* line 53, ../sass/screen.scss */
+/* line 60, ../sass/screen.scss */
 .container-bottom {
   background: url("../images/background-galery.jpg") center top no-repeat;
   background-size: 100% 100%;
@@ -126,7 +136,7 @@ header {
 
 /*------------------------------------------------------*/
 /*footer*/
-/* line 62, ../sass/screen.scss */
+/* line 69, ../sass/screen.scss */
 footer {
   background-color: #00745c;
   text-align: center;
@@ -135,20 +145,19 @@ footer {
   color: #f7fbfa;
 }
 
-/* line 69, ../sass/screen.scss */
+/* line 76, ../sass/screen.scss */
 .contact {
   height: 352px;
+  padding-top: 40px;
 }
 
-/* line 72, ../sass/screen.scss */
+/* line 80, ../sass/screen.scss */
 .contact-info {
   text-transform: uppercase;
   line-height: 2;
-  margin-top: 55px;
-  margin-bottom: 40px;
 }
 
-/* line 78, ../sass/screen.scss */
+/* line 84, ../sass/screen.scss */
 .contact-mail {
   text-decoration: none;
   color: #f7fbfa;
@@ -156,14 +165,14 @@ footer {
   margin-bottom: 44px;
 }
 
-/* line 84, ../sass/screen.scss */
+/* line 90, ../sass/screen.scss */
 .mail-logo {
   text-align: center;
   padding-top: 20px;
   padding-left: 55px;
 }
 
-/* line 90, ../sass/screen.scss */
+/* line 96, ../sass/screen.scss */
 .rights {
   font-family: Calibri, sans-serif;
   font-size: 30px;
