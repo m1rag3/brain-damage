@@ -43,9 +43,12 @@ header{
 footer{
   background-color: #00745c;
   text-align: center;
-  font-size: 14px;
+  font-size: 36px;
   font-family: Helvetica, sans-serif;
   color: #f7fbfa;
+}
+.contact{
+  height: 352px;
 }
 .contact-info{
   text-transform: uppercase;
@@ -55,6 +58,11 @@ footer{
  color: #f7fbfa;
 }
 .rights{
- display: inline;
+ font-family: Calibri, sans-serif;
+ font-size: 30px;
+ display: inline-block;
+ width: 100%;
+ height: 54px;
+ padding-top: 16px;
  background-color: #789964;
 }
