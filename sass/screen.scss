@@ -36,18 +36,28 @@ header{
 footer{
   background-color: #00745c;
   text-align: center;
-  font-size: 14px;
+  font-size: 19px;
   font-family: Helvetica, sans-serif;
   color: #f7fbfa;
 }
+.contact{
+  height: 200px;
+}
 .contact-info{
   text-transform: uppercase;
+  line-height: 2;
 }
 .contact-mail{
  text-decoration: none;
  color: #f7fbfa;
 }
+.mail-logo{
+  padding-top: 25px;
+}
 .rights{
- display: inline-block;
- background-color: #789964;
+  display: inline-block;
+  width: 100%;
+  height: 35px;
+  background-color: #789964;
+  padding-top: 7px;
 }
