@@ -29,8 +29,7 @@
 /*header style*/
 header{
   height: 156px;
-  /*background-color: #fff;*/
-  /*opacity: 0.25;*/
+  background: rgba(255, 255, 255, 0.15);
 }
 
 /*img logo left*/
@@ -53,7 +52,7 @@ header{
 /*overlay containers style*/
 .overlay{
   height: 164px;
-  margin-top: 630px;
+  margin-top: 489px;
   z-index: 2;
   background: rgba(120, 153, 100, 0.25);
   padding-top: 20px;
