@@ -14,11 +14,12 @@
   margin: 0 auto;
   background: url("../images/background-top.jpg") center top no-repeat;
   background-size: 100% 100%;
+  height: 1024px;
 }
 
 /*header style*/
 header{
-  height: 296px;
+  height: 156px;
   width: 100%;
   background-color: #fff;
   opacity: 0.25;
@@ -29,8 +30,8 @@ header{
 footer{
   background-color: #00745c;
   text-align: center;
-  font-size: 25px;
-  font-family: Helvetica;
+  font-size: 14px;
+  font-family: Helvetica, sans-serif;
   color: #f7fbfa;
 }
 .contact-info{
@@ -39,7 +40,4 @@ footer{
 .contact-mail{
  text-decoration: none;
  color: #f7fbfa;
-}
-.rights{
- display: inline;
 }
