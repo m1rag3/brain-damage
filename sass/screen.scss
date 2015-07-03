@@ -5,3 +5,9 @@
 
 @import "compass/reset";
 
+/*top content div with barrels img*/
+.content{
+  margin: 0 auto;
+  background: url("../images/background-top.jpg") center top no-repeat;
+  background-size: 100% 100%;
+}
