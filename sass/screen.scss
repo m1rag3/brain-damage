@@ -6,8 +6,14 @@
 @import "compass/reset";
 
 /*top content div with barrels img*/
-.content{
+.container-top{
   margin: 0 auto;
   background: url("../images/background-top.jpg") center top no-repeat;
   background-size: 100% 100%;
+}
+
+
+/*footer*/
+footer{
+  background-color: #00745c;
 }
