@@ -141,9 +141,16 @@ footer {
 .contact-mail {
   text-decoration: none;
   color: #f7fbfa;
+  margin-right: 50px;
+  margin-bottom: 44px;
 }
 
-/* line 69, ../sass/screen.scss */
+/* line 71, ../sass/screen.scss */
+.mail-logo {
+  padding-top: 20px;
+}
+
+/* line 74, ../sass/screen.scss */
 .rights {
   font-family: Calibri, sans-serif;
   font-size: 30px;
