@@ -79,4 +79,19 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* line 17, ../sass/screen.scss */
 footer {
   background-color: #00745c;
+  text-align: center;
+  font-size: 14px;
+  font-family: "HelveticaCYBold";
+  color: #f7fbfa;
+}
+
+/* line 24, ../sass/screen.scss */
+.contact-info {
+  text-transform: uppercase;
+}
+
+/* line 27, ../sass/screen.scss */
+.contact-mail {
+  text-decoration: none;
+  color: #f7fbfa;
 }
