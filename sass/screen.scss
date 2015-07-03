@@ -29,7 +29,7 @@ header{
   opacity: 0.25;
   z-index: 1;
 }
-
+-----------------------------------------------------------
 /*footer*/
 footer{
   background-color: #00745c;
@@ -44,4 +44,8 @@ footer{
 .contact-mail{
  text-decoration: none;
  color: #f7fbfa;
+}
+.rights{
+ display: inline;
+ background-color: #789964;
 }
