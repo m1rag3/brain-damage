@@ -147,7 +147,7 @@ footer {
 
 /* line 76, ../sass/screen.scss */
 .contact {
-  height: 352px;
+  height: 302px;
   padding-top: 40px;
 }
 
@@ -162,17 +162,16 @@ footer {
   text-decoration: none;
   color: #f7fbfa;
   padding-left: 165px;
-  margin-bottom: 44px;
 }
 
-/* line 90, ../sass/screen.scss */
+/* line 89, ../sass/screen.scss */
 .mail-logo {
   text-align: center;
   padding-top: 20px;
   padding-left: 55px;
 }
 
-/* line 96, ../sass/screen.scss */
+/* line 94, ../sass/screen.scss */
 .rights {
   font-family: Calibri, sans-serif;
   font-size: 30px;
