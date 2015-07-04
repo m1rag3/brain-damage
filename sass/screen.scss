@@ -151,3 +151,30 @@ footer{
     }
 }
 
+
+/*gallery slider style*/
+.gallery{
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+.slick-slide img{
+  margin: 0 auto;
+}
+.wrapper-gallery {
+  max-width:500px;
+  margin: inherit;
+}
+img {
+  max-width:100%;
+  height:auto;
+}
+.portfolio-thumb-slider .slick-slider-item {
+  padding:5px;
+}
+.portfolio-thumb-slider  {
+  margin:0 -5px 5px -5px;
+}
+.portfolio-thumb-slider .slick-active img {
+  border:2px solid #000000;
+}

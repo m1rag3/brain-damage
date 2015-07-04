@@ -227,3 +227,42 @@ footer .rights {
   padding-top: 16px;
   background-color: #789964;
 }
+
+/*gallery slider style*/
+/* line 156, ../sass/screen.scss */
+.gallery {
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+/* line 161, ../sass/screen.scss */
+.slick-slide img {
+  margin: 0 auto;
+}
+
+/* line 164, ../sass/screen.scss */
+.wrapper-gallery {
+  max-width: 500px;
+  margin: inherit;
+}
+
+/* line 168, ../sass/screen.scss */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 172, ../sass/screen.scss */
+.portfolio-thumb-slider .slick-slider-item {
+  padding: 5px;
+}
+
+/* line 175, ../sass/screen.scss */
+.portfolio-thumb-slider {
+  margin: 0 -5px 5px -5px;
+}
+
+/* line 178, ../sass/screen.scss */
+.portfolio-thumb-slider .slick-active img {
+  border: 2px solid #000000;
+}
