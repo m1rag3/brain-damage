@@ -247,7 +247,7 @@ img {
 
 /* line 168, ../sass/screen.scss */
 .portfolio-thumb-slider .slick-slider-item {
-  padding: 5px;
+  padding: 0 5px;
 }
 
 /* line 173, ../sass/screen.scss */
@@ -259,3 +259,4 @@ img {
 .portfolio-thumb-slider .slick-active img {
   border: 1px solid black;
 }
+

@@ -166,7 +166,7 @@ img {
 }
 
 .portfolio-thumb-slider .slick-slider-item {
-  padding:5px;
+  padding: 0 5px;
 
 }
 
@@ -176,4 +176,9 @@ img {
 
 .portfolio-thumb-slider .slick-active img {
   border:1px solid black;
+}
+
+.portfolio-thumb-slider{
+  background-color: #485148;
+  border: 20px solid #485148;
 }
