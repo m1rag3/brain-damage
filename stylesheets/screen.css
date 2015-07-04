@@ -2,6 +2,7 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+@import url(../sass/slick.css);
 /* line 5, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -76,13 +77,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-family: HandVetica;
   src: url(../fonts/HandVetica.ttf);
 }
-/* line 16, ../sass/screen.scss */
+/* line 18, ../sass/screen.scss */
 .clearfix {
   clear: both;
 }
 
 /*top content div with barrels img*/
-/* line 21, ../sass/screen.scss */
+/* line 23, ../sass/screen.scss */
 .container-top {
   background: url("../images/background-top.jpg") center top no-repeat;
   background-size: cover;
@@ -91,50 +92,50 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 /*header style*/
-/* line 29, ../sass/screen.scss */
+/* line 31, ../sass/screen.scss */
 header {
   height: 156px;
   background: rgba(255, 255, 255, 0.15);
 }
 
 /*img logo left*/
-/* line 35, ../sass/screen.scss */
+/* line 37, ../sass/screen.scss */
 .logo {
   margin: 7px 0 0 23px;
 }
 
 /*menu right button*/
-/* line 40, ../sass/screen.scss */
+/* line 42, ../sass/screen.scss */
 .menu {
   float: right;
   margin: 63px 41px 0 0;
 }
 
 /*start subscribe*/
-/* line 46, ../sass/screen.scss */
+/* line 48, ../sass/screen.scss */
 .subscribe {
   text-align: center;
 }
-/* line 48, ../sass/screen.scss */
+/* line 50, ../sass/screen.scss */
 .subscribe .game-logo {
   border: 1px dashed #000;
   border-radius: 25px;
   box-shadow: 10px 10px 10px black;
 }
-/* line 54, ../sass/screen.scss */
+/* line 56, ../sass/screen.scss */
 .subscribe .sub-title {
   font-size: 36px;
   font-family: Helvetica, sans-serif;
   color: #f4f8f4;
 }
-/* line 59, ../sass/screen.scss */
+/* line 61, ../sass/screen.scss */
 .subscribe .sub-input {
   margin: 0 auto;
 }
 
 /*end subscribe*/
 /*overlay containers style*/
-/* line 68, ../sass/screen.scss */
+/* line 70, ../sass/screen.scss */
 .overlay {
   height: 60px;
   margin-top: 489px;
@@ -144,22 +145,22 @@ header {
 }
 
 /*app buttons*/
-/* line 76, ../sass/screen.scss */
+/* line 78, ../sass/screen.scss */
 .app-load {
   float: right;
 }
 
-/* line 80, ../sass/screen.scss */
+/* line 82, ../sass/screen.scss */
 .app-load li {
   display: inline;
   padding: 0 15px 10px 0;
 }
-/* line 84, ../sass/screen.scss */
+/* line 86, ../sass/screen.scss */
 .app-load .btn-load {
   border-radius: 7px;
 }
 
-/* line 89, ../sass/screen.scss */
+/* line 91, ../sass/screen.scss */
 .bootleggers {
   font-family: HandVetica, sans-serif;
   font-size: 36px;
@@ -167,7 +168,7 @@ header {
   margin: 25px 0 25px 115px;
 }
 
-/* line 96, ../sass/screen.scss */
+/* line 98, ../sass/screen.scss */
 .overlay-bot {
   background-color: #789964;
   width: 100%;
@@ -178,7 +179,7 @@ header {
 }
 
 /*container-bottom style*/
-/* line 106, ../sass/screen.scss */
+/* line 108, ../sass/screen.scss */
 .container-bottom {
   background: url("../images/background-galery.jpg") center top no-repeat;
   background-size: cover;
@@ -187,7 +188,7 @@ header {
 
 /*------------------------------------------------------*/
 /*footer*/
-/* line 115, ../sass/screen.scss */
+/* line 117, ../sass/screen.scss */
 footer {
   background-color: #00745c;
   text-align: center;
@@ -195,29 +196,29 @@ footer {
   font-family: Helvetica_CY_Bold, sans-serif;
   color: #f7fbfa;
 }
-/* line 121, ../sass/screen.scss */
+/* line 123, ../sass/screen.scss */
 footer .contact {
   height: 302px;
   padding-top: 40px;
 }
-/* line 126, ../sass/screen.scss */
+/* line 128, ../sass/screen.scss */
 footer .contact-info {
   text-transform: uppercase;
   line-height: 2;
 }
-/* line 131, ../sass/screen.scss */
+/* line 133, ../sass/screen.scss */
 footer .contact-mail {
   text-decoration: none;
   color: #f7fbfa;
   padding-left: 165px;
 }
-/* line 137, ../sass/screen.scss */
+/* line 139, ../sass/screen.scss */
 footer .mail-logo {
   text-align: center;
   padding-top: 20px;
   padding-left: 55px;
 }
-/* line 143, ../sass/screen.scss */
+/* line 145, ../sass/screen.scss */
 footer .rights {
   font-family: Calibri, sans-serif;
   font-size: 30px;
@@ -226,43 +227,4 @@ footer .rights {
   height: 54px;
   padding-top: 16px;
   background-color: #789964;
-}
-
-/*gallery slider style*/
-/* line 156, ../sass/screen.scss */
-.gallery {
-  margin: 0 auto;
-  padding-top: 100px;
-}
-
-/* line 161, ../sass/screen.scss */
-.slick-slide img {
-  margin: 0 auto;
-}
-
-/* line 164, ../sass/screen.scss */
-.wrapper-gallery {
-  max-width: 500px;
-  margin: inherit;
-}
-
-/* line 168, ../sass/screen.scss */
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-/* line 172, ../sass/screen.scss */
-.portfolio-thumb-slider .slick-slider-item {
-  padding: 5px;
-}
-
-/* line 175, ../sass/screen.scss */
-.portfolio-thumb-slider {
-  margin: 0 -5px 5px -5px;
-}
-
-/* line 178, ../sass/screen.scss */
-.portfolio-thumb-slider .slick-active img {
-  border: 2px solid #000000;
 }
