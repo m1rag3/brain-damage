@@ -9,11 +9,11 @@ Error: File to import not found or unreadable: compass/reset.
 3:  * Import this file using the following HTML or equivalent:
 4:  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> *\/
 5: @import "compass/reset";
-6: @import "../sass/slick.css";
-7: 
-8: /*fonts*\/
-9: @font-face {
-10:   font-family: Helvetica_CY_Bold;
+6: /*fonts*\/
+7: @font-face {
+8:   font-family: Helvetica_CY_Bold;
+9:   src: url(../fonts/Helvetica_CY_Bold.ttf);
+10: }
 
 Backtrace:
 screen.scss:5
@@ -59,4 +59,4 @@ C:/Ruby22-x64/bin/scss:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: compass/reset.\A        Load paths:\A          \A         on line 5 of screen.scss\A \A 1: /* Welcome to Compass.\A 2:  * In this file you should write your main styles. (or centralize your imports)\A 3:  * Import this file using the following HTML or equivalent:\A 4:  * <link href=\"/stylesheets/screen.css\" media=\"screen, projection\" rel=\"stylesheet\" type=\"text/css\" /> */\A 5: @import \"compass/reset\";\A 6: @import \"../sass/slick.css\";\A 7: \A 8: /*fonts*/\A 9: @font-face {\A 10:   font-family: Helvetica_CY_Bold;"; }
+  content: "Error: File to import not found or unreadable: compass/reset.\A        Load paths:\A          \A         on line 5 of screen.scss\A \A 1: /* Welcome to Compass.\A 2:  * In this file you should write your main styles. (or centralize your imports)\A 3:  * Import this file using the following HTML or equivalent:\A 4:  * <link href=\"/stylesheets/screen.css\" media=\"screen, projection\" rel=\"stylesheet\" type=\"text/css\" /> */\A 5: @import \"compass/reset\";\A 6: /*fonts*/\A 7: @font-face {\A 8:   font-family: Helvetica_CY_Bold;\A 9:   src: url(../fonts/Helvetica_CY_Bold.ttf);\A 10: }"; }
