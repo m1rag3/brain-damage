@@ -255,13 +255,17 @@ img {
   margin: 0 -5px 5px -5px;
 }
 
-/* line 176, ../sass/screen.scss */
+/* line 175, ../sass/screen.scss */
+.portfolio-thumb-slider .slick-active {
+  width: 550px;
+}
+
+/* line 178, ../sass/screen.scss */
 .portfolio-thumb-slider .slick-active img {
   border: 1px solid black;
 }
 
-/* line 180, ../sass/screen.scss */
-.portfolio-thumb-slider {
-  background-color: rgba(72, 81, 72, 0.3);
-  border: 20px solid rgba(72, 81, 72, 0.3);
+/* line 181, ../sass/screen.scss */
+.portfolio-item-slider {
+  border: 20px red solid;
 }

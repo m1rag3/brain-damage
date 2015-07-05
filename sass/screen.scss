@@ -172,12 +172,12 @@ img {
 .portfolio-thumb-slider  {
   margin:0 -5px 5px -5px;
 }
-
+.portfolio-thumb-slider .slick-active{
+  width: 550px;
+}
 .portfolio-thumb-slider .slick-active img {
   border:1px solid black;
 }
-
-.portfolio-thumb-slider{
-  background-color: rgba(72, 81, 72, 0.3);
-  border: 20px solid rgba(72, 81, 72, 0.3);
+.portfolio-item-slider{
+  border: 20px red solid ;
 }
