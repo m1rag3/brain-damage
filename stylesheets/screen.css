@@ -2,7 +2,7 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 5, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 5, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -24,45 +24,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
@@ -314,22 +314,27 @@ img {
 /*screen res 1024px style*/
 @media screen and (max-width: 1075px) {
   /* line 225, ../sass/screen.scss */
+  .slick-list.draggable {
+    width: 800px;
+  }
+
+  /* line 228, ../sass/screen.scss */
   .wrapper-gallery {
     width: 400px;
     padding-left: 150px;
   }
 
-  /* line 229, ../sass/screen.scss */
+  /* line 232, ../sass/screen.scss */
   .portfolio-item-slider {
     border: none;
   }
 
-  /* line 232, ../sass/screen.scss */
+  /* line 235, ../sass/screen.scss */
   .wrapper-gallery {
     display: none;
   }
 
-  /* line 235, ../sass/screen.scss */
+  /* line 238, ../sass/screen.scss */
   footer {
     font-size: 18px;
     max-height: 400px;
@@ -337,110 +342,179 @@ img {
 }
 /*screen res 768x1024px style*/
 @media screen and (max-width: 768px) {
-  /* line 243, ../sass/screen.scss */
+  /* line 246, ../sass/screen.scss */
   .portfolio-item-slider {
     border: none;
   }
 
-  /* line 246, ../sass/screen.scss */
+  /* line 249, ../sass/screen.scss */
   .wrapper-gallery {
     display: none;
   }
 
-  /* line 249, ../sass/screen.scss */
+  /* line 252, ../sass/screen.scss */
   .subscribe .game-logo {
     margin-left: 286px;
   }
 
-  /* line 252, ../sass/screen.scss */
+  /* line 255, ../sass/screen.scss */
   .subscribe .sub-title {
     padding-left: 210px;
   }
 
-  /* line 255, ../sass/screen.scss */
+  /* line 258, ../sass/screen.scss */
   .subscribe .sub-input {
     margin-left: 70px;
   }
 
-  /* line 258, ../sass/screen.scss */
+  /* line 261, ../sass/screen.scss */
   .slick-list.draggable {
     width: 500px;
   }
 
-  /* line 261, ../sass/screen.scss */
+  /* line 264, ../sass/screen.scss */
   .gallery {
     padding: 100px 0 100px 100px;
   }
 
-  /* line 264, ../sass/screen.scss */
+  /* line 267, ../sass/screen.scss */
   .bootleggers {
     margin-left: 191px;
     margin-top: 0px;
     margin-bottom: 60px;
   }
 
-  /* line 269, ../sass/screen.scss */
+  /* line 272, ../sass/screen.scss */
   .app-load li {
     display: inline;
     padding: 0 35px 10px 0;
   }
 
-  /* line 273, ../sass/screen.scss */
+  /* line 276, ../sass/screen.scss */
   ul {
     margin-bottom: 60px;
   }
 
-  /* line 276, ../sass/screen.scss */
+  /* line 279, ../sass/screen.scss */
   footer .rights {
     height: 23px;
     font-family: Calibri, sans-serif;
     font-size: 15px;
   }
 
-  /* line 281, ../sass/screen.scss */
+  /* line 284, ../sass/screen.scss */
   footer .contact {
     height: 220px;
   }
 }
 /*screen res 380px style*/
 @media screen and (max-width: 380px) {
-  /* line 290, ../sass/screen.scss */
+  /* line 293, ../sass/screen.scss */
+  .slick-list.draggable {
+    width: 300px;
+  }
+
+  /* line 296, ../sass/screen.scss */
+  .gallery {
+    padding: 80px 33px;
+  }
+
+  /* line 299, ../sass/screen.scss */
   .portfolio-item-slider {
     display: none;
   }
 
-  /* line 293, ../sass/screen.scss */
+  /* line 302, ../sass/screen.scss */
   .wrapper-gallery {
     display: none;
   }
 
-  /* line 296, ../sass/screen.scss */
+  /* line 305, ../sass/screen.scss */
   footer {
     font-size: 18px;
     max-height: 100px;
   }
+  /* line 306, ../sass/screen.scss */
+  footer img {
+    display: none;
+  }
 
-  /* line 300, ../sass/screen.scss */
+  /* line 312, ../sass/screen.scss */
   span .rights {
     font-size: 18px;
   }
 
-  /* line 303, ../sass/screen.scss */
+  /* line 315, ../sass/screen.scss */
   footer .contact-mail {
     padding: 1px;
   }
 
-  /* line 306, ../sass/screen.scss */
+  /* line 318, ../sass/screen.scss */
   .subscribe .game-logo {
-    margin: -300px 0 0 75px;
+    margin: -300px 0 0 125px;
   }
 
-  /* line 309, ../sass/screen.scss */
+  /* line 321, ../sass/screen.scss */
   .subscribe .sub-title {
     font-size: 16px;
-    padding: 55px 0 0 70px;
+    padding: 55px 0 0 125px;
     margin: -125px 0 0 0;
     font-family: Helvetica, sans-serif;
     color: #f4f8f4;
+  }
+
+  /* line 328, ../sass/screen.scss */
+  .subscribe .sub-input {
+    margin-left: 14px;
+    display: inline-block;
+    float: left;
+    padding-left: 45px;
+  }
+
+  /* line 334, ../sass/screen.scss */
+  .subscribe .inp-f {
+    height: 24px;
+    width: 150px;
+    border: 0;
+    background-color: rgba(244, 248, 244, 0.5);
+    font-size: 16px;
+  }
+
+  /* line 341, ../sass/screen.scss */
+  .subscribe .sub-btn {
+    height: 26px;
+    border: 0;
+    font-family: Helvetica, sans-serif;
+    color: #121312;
+    text-align: center;
+    background-color: #09876d;
+    font-size: 16px;
+  }
+
+  /* line 350, ../sass/screen.scss */
+  .overlay {
+    margin-top: 250px;
+  }
+
+  /* line 353, ../sass/screen.scss */
+  .bootleggers {
+    font-size: 26px;
+    margin: 0 0 0 50px;
+  }
+
+  /* line 357, ../sass/screen.scss */
+  .app-load {
+    margin: 30px 0 0 110px;
+  }
+
+  /* line 360, ../sass/screen.scss */
+  footer .contact {
+    height: 50px;
+    font-size: 12px;
+  }
+
+  /* line 364, ../sass/screen.scss */
+  footer .contact-info {
+    line-height: 0;
   }
 }
