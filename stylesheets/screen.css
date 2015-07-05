@@ -255,7 +255,7 @@ footer .rights {
   font-size: 30px;
   display: inline-block;
   width: 100%;
-  height: 54px;
+  height: 46px;
   padding-top: 16px;
   background-color: #789964;
 }
@@ -310,26 +310,67 @@ img {
   height: 80px;
 }
 
+@media screen and (max-width: 380px) {
+  /* line 222, ../sass/screen.scss */
+  .portfolio-item-slider {
+    display: none;
+  }
+
+  /* line 225, ../sass/screen.scss */
+  .wrapper-gallery {
+    display: none;
+  }
+
+  /* line 228, ../sass/screen.scss */
+  footer {
+    font-size: 18px;
+    max-height: 100px;
+  }
+
+  /* line 232, ../sass/screen.scss */
+  span .rights {
+    font-size: 18px;
+  }
+
+  /* line 235, ../sass/screen.scss */
+  footer .contact-mail {
+    padding: 1px;
+  }
+
+  /* line 238, ../sass/screen.scss */
+  .subscribe .game-logo {
+    margin: -300px 0 0 75px;
+  }
+
+  /* line 241, ../sass/screen.scss */
+  .subscribe .sub-title {
+    font-size: 16px;
+    padding: 55px 0 0 70px;
+    margin: -125px 0 0 0;
+    font-family: Helvetica, sans-serif;
+    color: #f4f8f4;
+  }
+}
 /*screen res style*/
 /*screen res 1280px style*/
 @media screen and (max-width: 1075px) {
-  /* line 225, ../sass/screen.scss */
+  /* line 253, ../sass/screen.scss */
   .wrapper-gallery {
     width: 400px;
     padding-left: 150px;
   }
 
-  /* line 229, ../sass/screen.scss */
+  /* line 257, ../sass/screen.scss */
   .portfolio-item-slider {
     border: none;
   }
 
-  /* line 232, ../sass/screen.scss */
+  /* line 260, ../sass/screen.scss */
   .wrapper-gallery {
     display: none;
   }
 
-  /* line 235, ../sass/screen.scss */
+  /* line 263, ../sass/screen.scss */
   footer {
     font-size: 18px;
     max-height: 400px;

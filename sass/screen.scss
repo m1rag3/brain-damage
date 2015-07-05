@@ -174,7 +174,7 @@ footer{
       font-size: 30px;
       display: inline-block;
       width: 100%;
-      height: 54px;
+      height: 46px;
       padding-top: 16px;
       background-color: #789964;
     }
@@ -218,6 +218,34 @@ img {
   height: 80px;
 }
 
+@media screen and (max-width: 380px) {
+  .portfolio-item-slider {
+    display: none;
+  }
+  .wrapper-gallery {
+    display: none;
+  }
+  footer {
+    font-size: 18px;
+    max-height: 100px;
+  }
+  span .rights {
+    font-size: 18px;
+  }
+  footer .contact-mail{
+    padding: 1px;
+  }
+  .subscribe .game-logo{
+    margin: -300px 0 0 75px;
+  }
+  .subscribe .sub-title{
+    font-size: 16px;
+    padding: 55px 0 0 70px ;
+    margin: -125px 0 0 0;
+    font-family: Helvetica, sans-serif;
+    color: rgb( 244, 248, 244);
+  }
+}
 
 /*screen res style*/
 /*screen res 1280px style*/
@@ -237,3 +265,5 @@ img {
     max-height: 400px;
   }
 }
+
+
