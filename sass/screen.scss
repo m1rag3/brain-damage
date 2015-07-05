@@ -52,6 +52,8 @@ header{
       border-radius: 25px;
       box-shadow: 10px 10px 10px black;
       float: left;
+      margin-left: 184px;
+
 
     }
     .sub-title{
@@ -59,9 +61,26 @@ header{
       font-size: 36px;
       font-family: Helvetica, sans-serif;
       color: rgb( 244, 248, 244 );
+      padding-bottom: 8px;
     }
     .sub-input{
-      margin: 0 auto;
+      margin-left: 14px;
+      display: inline-block;
+    }
+    .inp-f{
+      height: 52px;
+      width: 400px;
+      border: 0;
+    }
+    .sub-btn{
+      height: 54px;
+      border: 0;
+      margin-left: -4px;
+      font-family: HelveticaCYBold;
+      color: rgb( 18, 19, 18 );
+      text-align: center;
+      background-color: #09876d;
+
     }
 }
 
