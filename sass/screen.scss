@@ -60,7 +60,7 @@ header{
       display: block;
       font-size: 36px;
       font-family: Helvetica, sans-serif;
-      color: rgb( 244, 248, 244 );
+      color: rgb( 244, 248, 244);
       padding-bottom: 8px;
     }
     .sub-input{
@@ -69,20 +69,24 @@ header{
     }
     .inp-f{
       height: 52px;
-      width: 400px;
+      width: 360px;
       border: 0;
+      background-color: rgba( 244, 248, 244, 0.5);
+      font-size: 20px;
+      text-transform: uppercase;
     }
     .sub-btn{
       height: 54px;
       border: 0;
       margin-left: -4px;
-      font-family: HelveticaCYBold;
-      color: rgb( 18, 19, 18 );
+      font-family: HelveticaCYBold, sans-serif;
+      color: rgb( 18, 19, 18);
       text-align: center;
       background-color: #09876d;
-
+      font-size: 20px;
+      }
     }
-}
+
 
 
 /*end subscribe*/
@@ -226,7 +230,7 @@ img {
   .wrapper-gallery{
     display: none;
   }
-  footer{
+  footer {
     font-size: 18px;
     max-height: 400px;
   }
