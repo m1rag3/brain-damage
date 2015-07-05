@@ -176,8 +176,14 @@ img {
   width: 550px;
 }
 .portfolio-thumb-slider .slick-active img {
-  border:1px solid black;
+  padding-top: 5px;
 }
 .portfolio-item-slider{
-  border: 20px red solid ;
+  border: 20px solid rgba(185, 188, 185, 0.6);
+}
+
+.portfolio-thumb-slider{
+  background-color: rgba(72, 81, 72, 0.6);
+  width: 515px;
+  height: 80px;
 }
