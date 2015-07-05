@@ -238,7 +238,50 @@ img {
   }
 }
 
-/*screen res 768px style*/
+/*screen res 768x1024px style*/
+@media screen and (max-width: 768px){
+  .portfolio-item-slider{
+    border: none;
+  }
+  .wrapper-gallery{
+    display: none;
+  }
+  .subscribe .game-logo{
+    margin-left: 286px;
+  }
+  .subscribe .sub-title {
+    padding-left: 210px;
+  }
+  .subscribe .sub-input{
+    margin-left: 70px;
+  }
+  .slick-list.draggable{
+    width: 500px;
+  }
+  .gallery{
+    padding: 100px 0 100px 100px;
+  }
+  .bootleggers{
+    margin-left: 191px;
+    margin-top: 0px;
+    margin-bottom: 60px;
+  }
+  .app-load li{
+    display: inline;
+    padding: 0 35px 10px 0;
+  }
+  ul {
+    margin-bottom: 60px;
+  }
+  footer .rights {
+    height: 23px;
+    font-family: Calibri, sans-serif;
+    font-size: 15px;
+  }
+  footer .contact{
+    height: 220px;
+  }
+}
 
 
 
