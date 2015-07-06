@@ -187,12 +187,14 @@ footer{
 
 /*gallery style*/
 .gallery{
-  padding: 100px 200px ;
+  padding: 30px 200px ;
+  position: relative;
+  margin: 0 auto;
 }
 
 .wrapper-gallery {
   max-width:500px;
-  padding-left: 150px;
+  padding-left: 20%;
 }
 
 img {
@@ -222,7 +224,8 @@ img {
 
 .portfolio-thumb-slider{
   background-color: rgba(72, 81, 72, 0.6);
-  width: 515px;
+  width: 500px;
+  max-width: 500px;
   height: 80px;
 }
 
@@ -231,6 +234,10 @@ img {
 @media screen and (max-width: 1920px) {
   .subscribe {
     padding-top: 15%;
+  }
+  .gallery{
+    position: relative;
+    margin: 0 auto;
   }
 }
 
@@ -241,7 +248,7 @@ img {
   }
   .wrapper-gallery {
     width: 400px;
-    padding-left: 150px;
+    padding-left: 180px;
   }
   .portfolio-item-slider{
     border: none;
