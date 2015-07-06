@@ -130,17 +130,16 @@ header {
 }
 /* line 61, ../sass/screen.scss */
 .subscribe .form-text {
-  margin-left: 200px;
+  margin-left: 150px;
 }
-/* line 64, ../sass/screen.scss */
+/* line 65, ../sass/screen.scss */
 .subscribe .sub-title {
   display: block;
   font-size: 30px;
   font-family: Helvetica, sans-serif;
   color: #f4f8f4;
-  padding-bottom: 8px;
+  padding: 0 0 15px 150px;
   float: left;
-  padding-left: 150px;
   font-weight: bold;
 }
 /* line 74, ../sass/screen.scss */
