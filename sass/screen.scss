@@ -45,13 +45,21 @@ header{
 /*start subscribe*/
 .subscribe{
   text-align: center;
-  padding-top: 369px;
+  padding-top: 15%;
+  max-width: 830px;
+  width: 830px;
+  position: relative;
+  margin: 0 auto;
     .game-logo{
       border: 1px dashed #000;
       border-radius: 25px;
       box-shadow: 10px 10px 10px black;
-      float: left;
-      margin-left: 184px;
+      position: absolute;
+      //margin-left: 184px;
+      left: 0;
+      }
+    .form-text{
+    margin-left: 200px;
     }
     .sub-title{
       display: block;
@@ -95,16 +103,15 @@ header{
 
 /*overlay containers style*/
 .overlay{
-  height: 45px;
-  margin-top: 136px;
+  position: relative;
+  height: 65px;
+  top: -65px;
   z-index: 2;
   background: rgba(120, 153, 100, 0.25);
-  padding-top: 20px;
 }
 /*app buttons*/
 .app-load{
   float: right;
-  margin-top: -18px;
   li{
     display: inline;
     padding: 0 2px 10px 0;
@@ -119,8 +126,7 @@ header{
   font-family: HandVetica, sans-serif;
   font-size: 36px;
   color: #fff;
-  margin: -18px 0 0 115px;
-
+  margin: 0 0 0 115px;
 }
 .overlay-bot{
   background-color: #789964;
@@ -266,7 +272,7 @@ img {
   }
   .bootleggers{
     margin-left: 191px;
-    margin-top: 0px;
+    margin-top: 0;
     margin-bottom: 60px;
   }
   .app-load li{
@@ -315,38 +321,45 @@ img {
   footer .contact-mail{
     padding: 1px;
   }
-  .subscribe .game-logo{
+
+  .subscribe {
+    padding-top: 10%;
+
+    .game-logo {
+      padding: 10%;
+    }
     margin: -300px 0 0 125px;
+    .sub-title {
+      font-size: 16px;
+      padding: 55px 0 0 125px;
+      margin: -125px 0 0 0;
+      font-family: Helvetica, sans-serif;
+      color: rgb(244, 248, 244);
+    }
+    .sub-input {
+      margin-left: 14px;
+      display: inline-block;
+      float: left;
+      padding-left: 45px;
+    }
+    .inp-f {
+      height: 24px;
+      width: 150px;
+      border: 0;
+      background-color: rgba(244, 248, 244, 0.5);
+      font-size: 16px;
+    }
+    .sub-btn {
+      height: 26px;
+      border: 0;
+      font-family: Helvetica, sans-serif;
+      color: rgb(18, 19, 18);
+      text-align: center;
+      background-color: #09876d;
+      font-size: 16px;
+    }
   }
-  .subscribe .sub-title{
-    font-size: 16px;
-    padding: 55px 0 0 125px ;
-    margin: -125px 0 0 0;
-    font-family: Helvetica, sans-serif;
-    color: rgb( 244, 248, 244);
-  }
-  .subscribe .sub-input{
-    margin-left: 14px;
-    display: inline-block;
-    float: left;
-    padding-left: 45px;
-  }
-  .subscribe .inp-f{
-    height: 24px;
-    width: 150px;
-    border: 0;
-    background-color: rgba( 244, 248, 244, 0.5);
-    font-size: 16px;
-  }
-  .subscribe .sub-btn{
-    height: 26px;
-    border: 0;
-    font-family: Helvetica, sans-serif;
-    color: rgb( 18, 19, 18);
-    text-align: center;
-    background-color: #09876d;
-    font-size: 16px;
-  }
+
   .overlay{
     margin-top: 250px;
   }

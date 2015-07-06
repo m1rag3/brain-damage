@@ -114,17 +114,25 @@ header {
 /* line 46, ../sass/screen.scss */
 .subscribe {
   text-align: center;
-  padding-top: 369px;
+  padding-top: 15%;
+  max-width: 830px;
+  width: 830px;
+  position: relative;
+  margin: 0 auto;
 }
-/* line 49, ../sass/screen.scss */
+/* line 53, ../sass/screen.scss */
 .subscribe .game-logo {
   border: 1px dashed #000;
   border-radius: 25px;
   box-shadow: 10px 10px 10px black;
-  float: left;
-  margin-left: 184px;
+  position: absolute;
+  left: 0;
 }
-/* line 56, ../sass/screen.scss */
+/* line 61, ../sass/screen.scss */
+.subscribe .form-text {
+  margin-left: 200px;
+}
+/* line 64, ../sass/screen.scss */
 .subscribe .sub-title {
   display: block;
   font-size: 30px;
@@ -135,14 +143,14 @@ header {
   padding-left: 150px;
   font-weight: bold;
 }
-/* line 66, ../sass/screen.scss */
+/* line 74, ../sass/screen.scss */
 .subscribe .sub-input {
   margin-left: 14px;
   display: inline-block;
   float: left;
   padding-left: 60px;
 }
-/* line 72, ../sass/screen.scss */
+/* line 80, ../sass/screen.scss */
 .subscribe .inp-f {
   height: 52px;
   width: 360px;
@@ -151,7 +159,7 @@ header {
   font-size: 20px;
   text-transform: uppercase;
 }
-/* line 80, ../sass/screen.scss */
+/* line 88, ../sass/screen.scss */
 .subscribe .sub-btn {
   height: 54px;
   border: 0;
@@ -165,41 +173,40 @@ header {
 
 /*end subscribe*/
 /*overlay containers style*/
-/* line 97, ../sass/screen.scss */
+/* line 105, ../sass/screen.scss */
 .overlay {
-  height: 45px;
-  margin-top: 136px;
+  position: relative;
+  height: 65px;
+  top: -65px;
   z-index: 2;
   background: rgba(120, 153, 100, 0.25);
-  padding-top: 20px;
 }
 
 /*app buttons*/
-/* line 105, ../sass/screen.scss */
+/* line 113, ../sass/screen.scss */
 .app-load {
   float: right;
-  margin-top: -18px;
 }
-/* line 108, ../sass/screen.scss */
+/* line 115, ../sass/screen.scss */
 .app-load li {
   display: inline;
   padding: 0 2px 10px 0;
 }
-/* line 112, ../sass/screen.scss */
+/* line 119, ../sass/screen.scss */
 .app-load .btn-load {
   border-radius: 7px;
 }
 
-/* line 117, ../sass/screen.scss */
+/* line 124, ../sass/screen.scss */
 .bootleggers {
   display: inline-block;
   font-family: HandVetica, sans-serif;
   font-size: 36px;
   color: #fff;
-  margin: -18px 0 0 115px;
+  margin: 0 0 0 115px;
 }
 
-/* line 125, ../sass/screen.scss */
+/* line 131, ../sass/screen.scss */
 .overlay-bot {
   background-color: #789964;
   width: 100%;
@@ -210,7 +217,7 @@ header {
 }
 
 /*container-bottom style*/
-/* line 135, ../sass/screen.scss */
+/* line 141, ../sass/screen.scss */
 .container-bottom {
   background: url("../images/background-galery.jpg") center top no-repeat;
   background-size: cover;
@@ -219,7 +226,7 @@ header {
 
 /*------------------------------------------------------*/
 /*footer*/
-/* line 144, ../sass/screen.scss */
+/* line 150, ../sass/screen.scss */
 footer {
   background-color: #00745c;
   text-align: center;
@@ -227,29 +234,29 @@ footer {
   font-family: Helvetica_CY_Bold, sans-serif;
   color: #f7fbfa;
 }
-/* line 150, ../sass/screen.scss */
+/* line 156, ../sass/screen.scss */
 footer .contact {
   height: 302px;
   padding-top: 40px;
 }
-/* line 155, ../sass/screen.scss */
+/* line 161, ../sass/screen.scss */
 footer .contact-info {
   text-transform: uppercase;
   line-height: 2;
 }
-/* line 160, ../sass/screen.scss */
+/* line 166, ../sass/screen.scss */
 footer .contact-mail {
   text-decoration: none;
   color: #f7fbfa;
   padding-left: 165px;
 }
-/* line 166, ../sass/screen.scss */
+/* line 172, ../sass/screen.scss */
 footer .mail-logo {
   text-align: center;
   padding-top: 20px;
   padding-left: 55px;
 }
-/* line 172, ../sass/screen.scss */
+/* line 178, ../sass/screen.scss */
 footer .rights {
   font-family: Calibri, sans-serif;
   font-size: 30px;
@@ -261,49 +268,49 @@ footer .rights {
 }
 
 /*gallery style*/
-/* line 184, ../sass/screen.scss */
+/* line 190, ../sass/screen.scss */
 .gallery {
   padding: 100px 200px;
 }
 
-/* line 188, ../sass/screen.scss */
+/* line 194, ../sass/screen.scss */
 .wrapper-gallery {
   max-width: 500px;
   padding-left: 150px;
 }
 
-/* line 193, ../sass/screen.scss */
+/* line 199, ../sass/screen.scss */
 img {
   max-width: 100%;
   height: auto;
 }
 
-/* line 198, ../sass/screen.scss */
+/* line 204, ../sass/screen.scss */
 .portfolio-thumb-slider .slick-slider-item {
   padding: 0 5px;
 }
 
-/* line 202, ../sass/screen.scss */
+/* line 208, ../sass/screen.scss */
 .portfolio-thumb-slider {
   margin: 0 -5px 5px -5px;
 }
 
-/* line 205, ../sass/screen.scss */
+/* line 211, ../sass/screen.scss */
 .portfolio-thumb-slider .slick-active {
   width: 550px;
 }
 
-/* line 208, ../sass/screen.scss */
+/* line 214, ../sass/screen.scss */
 .portfolio-thumb-slider .slick-active img {
   padding-top: 5px;
 }
 
-/* line 211, ../sass/screen.scss */
+/* line 217, ../sass/screen.scss */
 .portfolio-item-slider {
   border: 20px solid rgba(185, 188, 185, 0.6);
 }
 
-/* line 215, ../sass/screen.scss */
+/* line 221, ../sass/screen.scss */
 .portfolio-thumb-slider {
   background-color: rgba(72, 81, 72, 0.6);
   width: 515px;
@@ -313,28 +320,28 @@ img {
 /*screen res style*/
 /*screen res 1024px style*/
 @media screen and (max-width: 1075px) {
-  /* line 225, ../sass/screen.scss */
+  /* line 231, ../sass/screen.scss */
   .slick-list.draggable {
     width: 800px;
   }
 
-  /* line 228, ../sass/screen.scss */
+  /* line 234, ../sass/screen.scss */
   .wrapper-gallery {
     width: 400px;
     padding-left: 150px;
   }
 
-  /* line 232, ../sass/screen.scss */
+  /* line 238, ../sass/screen.scss */
   .portfolio-item-slider {
     border: none;
   }
 
-  /* line 235, ../sass/screen.scss */
+  /* line 241, ../sass/screen.scss */
   .wrapper-gallery {
     display: none;
   }
 
-  /* line 238, ../sass/screen.scss */
+  /* line 244, ../sass/screen.scss */
   footer {
     font-size: 18px;
     max-height: 400px;
@@ -342,119 +349,123 @@ img {
 }
 /*screen res 768x1024px style*/
 @media screen and (max-width: 768px) {
-  /* line 246, ../sass/screen.scss */
+  /* line 252, ../sass/screen.scss */
   .portfolio-item-slider {
     border: none;
   }
 
-  /* line 249, ../sass/screen.scss */
+  /* line 255, ../sass/screen.scss */
   .wrapper-gallery {
     display: none;
   }
 
-  /* line 252, ../sass/screen.scss */
+  /* line 258, ../sass/screen.scss */
   .subscribe .game-logo {
     margin-left: 286px;
   }
 
-  /* line 255, ../sass/screen.scss */
+  /* line 261, ../sass/screen.scss */
   .subscribe .sub-title {
     padding-left: 210px;
   }
 
-  /* line 258, ../sass/screen.scss */
+  /* line 264, ../sass/screen.scss */
   .subscribe .sub-input {
     margin-left: 70px;
   }
 
-  /* line 261, ../sass/screen.scss */
+  /* line 267, ../sass/screen.scss */
   .slick-list.draggable {
     width: 500px;
   }
 
-  /* line 264, ../sass/screen.scss */
+  /* line 270, ../sass/screen.scss */
   .gallery {
     padding: 100px 0 100px 100px;
   }
 
-  /* line 267, ../sass/screen.scss */
+  /* line 273, ../sass/screen.scss */
   .bootleggers {
     margin-left: 191px;
-    margin-top: 0px;
+    margin-top: 0;
     margin-bottom: 60px;
   }
 
-  /* line 272, ../sass/screen.scss */
+  /* line 278, ../sass/screen.scss */
   .app-load li {
     display: inline;
     padding: 0 35px 10px 0;
   }
 
-  /* line 276, ../sass/screen.scss */
+  /* line 282, ../sass/screen.scss */
   ul {
     margin-bottom: 60px;
   }
 
-  /* line 279, ../sass/screen.scss */
+  /* line 285, ../sass/screen.scss */
   footer .rights {
     height: 23px;
     font-family: Calibri, sans-serif;
     font-size: 15px;
   }
 
-  /* line 284, ../sass/screen.scss */
+  /* line 290, ../sass/screen.scss */
   footer .contact {
     height: 220px;
   }
 }
 /*screen res 380px style*/
 @media screen and (max-width: 380px) {
-  /* line 293, ../sass/screen.scss */
+  /* line 299, ../sass/screen.scss */
   .slick-list.draggable {
     width: 300px;
   }
 
-  /* line 296, ../sass/screen.scss */
+  /* line 302, ../sass/screen.scss */
   .gallery {
     padding: 80px 33px;
   }
 
-  /* line 299, ../sass/screen.scss */
+  /* line 305, ../sass/screen.scss */
   .portfolio-item-slider {
     display: none;
   }
 
-  /* line 302, ../sass/screen.scss */
+  /* line 308, ../sass/screen.scss */
   .wrapper-gallery {
     display: none;
   }
 
-  /* line 305, ../sass/screen.scss */
+  /* line 311, ../sass/screen.scss */
   footer {
     font-size: 18px;
     max-height: 100px;
   }
-  /* line 306, ../sass/screen.scss */
+  /* line 312, ../sass/screen.scss */
   footer img {
     display: none;
   }
 
-  /* line 312, ../sass/screen.scss */
+  /* line 318, ../sass/screen.scss */
   span .rights {
     font-size: 18px;
   }
 
-  /* line 315, ../sass/screen.scss */
+  /* line 321, ../sass/screen.scss */
   footer .contact-mail {
     padding: 1px;
   }
 
-  /* line 318, ../sass/screen.scss */
-  .subscribe .game-logo {
+  /* line 325, ../sass/screen.scss */
+  .subscribe {
+    padding-top: 10%;
     margin: -300px 0 0 125px;
   }
-
-  /* line 321, ../sass/screen.scss */
+  /* line 328, ../sass/screen.scss */
+  .subscribe .game-logo {
+    padding: 10%;
+  }
+  /* line 332, ../sass/screen.scss */
   .subscribe .sub-title {
     font-size: 16px;
     padding: 55px 0 0 125px;
@@ -462,16 +473,14 @@ img {
     font-family: Helvetica, sans-serif;
     color: #f4f8f4;
   }
-
-  /* line 328, ../sass/screen.scss */
+  /* line 339, ../sass/screen.scss */
   .subscribe .sub-input {
     margin-left: 14px;
     display: inline-block;
     float: left;
     padding-left: 45px;
   }
-
-  /* line 334, ../sass/screen.scss */
+  /* line 345, ../sass/screen.scss */
   .subscribe .inp-f {
     height: 24px;
     width: 150px;
@@ -479,8 +488,7 @@ img {
     background-color: rgba(244, 248, 244, 0.5);
     font-size: 16px;
   }
-
-  /* line 341, ../sass/screen.scss */
+  /* line 352, ../sass/screen.scss */
   .subscribe .sub-btn {
     height: 26px;
     border: 0;
@@ -491,29 +499,29 @@ img {
     font-size: 16px;
   }
 
-  /* line 350, ../sass/screen.scss */
+  /* line 363, ../sass/screen.scss */
   .overlay {
     margin-top: 250px;
   }
 
-  /* line 353, ../sass/screen.scss */
+  /* line 366, ../sass/screen.scss */
   .bootleggers {
     font-size: 26px;
     margin: 0 0 0 50px;
   }
 
-  /* line 357, ../sass/screen.scss */
+  /* line 370, ../sass/screen.scss */
   .app-load {
     margin: 30px 0 0 110px;
   }
 
-  /* line 360, ../sass/screen.scss */
+  /* line 373, ../sass/screen.scss */
   footer .contact {
     height: 50px;
     font-size: 12px;
   }
 
-  /* line 364, ../sass/screen.scss */
+  /* line 377, ../sass/screen.scss */
   footer .contact-info {
     line-height: 0;
   }
