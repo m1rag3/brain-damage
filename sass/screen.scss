@@ -106,7 +106,6 @@ header{
   position: relative;
   height: 65px;
   top: -65px;
-  z-index: 2;
   background: rgba(120, 153, 100, 0.25);
 }
 /*app buttons*/
@@ -210,12 +209,15 @@ img {
 }
 .portfolio-thumb-slider .slick-active{
   width: 550px;
+  max-width: 550px;
 }
 .portfolio-thumb-slider .slick-active img {
   padding-top: 5px;
 }
 .portfolio-item-slider{
   border: 20px solid rgba(185, 188, 185, 0.6);
+  width: 850px;
+  max-width: 850px;
 }
 
 .portfolio-thumb-slider{
@@ -226,6 +228,12 @@ img {
 
 
 /*screen res style*/
+@media screen and (max-width: 1920px) {
+  .subscribe {
+    padding-top: 15%;
+  }
+}
+
 /*screen res 1024px style*/
 @media screen and (max-width: 1075px) {
   .slick-list.draggable{
