@@ -187,9 +187,11 @@ footer{
 
 /*gallery style*/
 .gallery{
-  padding: 30px 200px ;
+  //padding: 30px 200px ;
+
   position: relative;
   margin: 0 auto;
+  width: 850px;
 }
 
 .wrapper-gallery {
@@ -202,8 +204,9 @@ img {
   height:auto;
 }
 
+
 .portfolio-thumb-slider .slick-slider-item {
-  padding: 0 5px;
+  padding: 5px;
 }
 
 .portfolio-thumb-slider  {
@@ -214,7 +217,7 @@ img {
   max-width: 550px;
 }
 .portfolio-thumb-slider .slick-active img {
-  padding-top: 5px;
+  //padding-top: 5px;
 }
 .portfolio-item-slider{
   border: 20px solid rgba(185, 188, 185, 0.6);
@@ -224,8 +227,7 @@ img {
 
 .portfolio-thumb-slider{
   background-color: rgba(72, 81, 72, 0.6);
-  width: 500px;
-  max-width: 500px;
+  width: 515px;
   height: 80px;
 }
 
