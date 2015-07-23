@@ -251,6 +251,99 @@ img {
 
   .portfolio-thumb-slider {
     width: 518px;
-    height: inherit; } }
+    height: inherit; }
+
+  footer .contact-mail {
+    padding-left: 0; } }
+@media screen and (max-width: 450px) {
+  .subscribe .game-logo {
+    margin-top: 25px; }
+  .subscribe .sub-title {
+    padding-left: 72px; }
+
+  .gallery {
+    max-width: 100%; }
+
+  .portfolio-item-slider {
+    width: 385px;
+    margin-left: 33px; }
+
+  .portfolio-thumb-slider {
+    width: 385px;
+    height: inherit; }
+
+  .wrapper-gallery {
+    padding-left: 40px;
+    max-width: 385px; }
+
+  .bootleggers {
+    margin-left: 0; }
+
+  footer {
+    font-size: 20px; }
+    footer .rights {
+      font-size: 16px; }
+    footer .mail-logo {
+      padding-left: 15px;
+      padding-top: 0px; } }
+@media screen and (max-width: 375px) {
+  .subscribe .sub-title {
+    padding-left: 38px; }
+  .subscribe .inp-f {
+    width: 285px; }
+  .subscribe .game-logo {
+    margin-left: 45px; }
+
+  ul {
+    padding-left: 0; }
+
+  .gallery {
+    max-width: 100%; }
+
+  .portfolio-item-slider {
+    width: 320px;
+    margin-left: 22px; }
+
+  .portfolio-thumb-slider {
+    width: 320px;
+    height: inherit; }
+
+  .wrapper-gallery {
+    padding-left: 26px;
+    max-width: 320px; }
+
+  footer {
+    font-size: 16px; }
+    footer .rights {
+      font-size: 12px; } }
+@media screen and (max-width: 320px) {
+  .subscribe .sub-input {
+    margin-left: 0; }
+  .subscribe .sub-title {
+    padding-left: 12px; }
+  .subscribe .inp-f {
+    width: 255px; }
+  .subscribe .game-logo {
+    margin-left: 30px;
+    margin-top: 60px; }
+
+  .bootleggers {
+    font-size: 30px;
+    margin-bottom: 35px; }
+
+  .gallery {
+    max-width: 100%; }
+
+  .portfolio-item-slider {
+    width: 280px;
+    margin-left: 22px; }
+
+  .portfolio-thumb-slider {
+    width: 280px;
+    height: inherit; }
+
+  .wrapper-gallery {
+    padding-left: 26px;
+    max-width: 280px; } }
 
 /*# sourceMappingURL=screen.css.map */

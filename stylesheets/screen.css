@@ -359,4 +359,160 @@ img {
     width: 518px;
     height: inherit;
   }
+
+  /* line 332, ../sass/screen.scss */
+  footer .contact-mail {
+    padding-left: 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  /* line 341, ../sass/screen.scss */
+  .subscribe .game-logo {
+    margin-top: 25px;
+  }
+  /* line 344, ../sass/screen.scss */
+  .subscribe .sub-title {
+    padding-left: 72px;
+  }
+
+  /* line 348, ../sass/screen.scss */
+  .gallery {
+    max-width: 100%;
+  }
+
+  /* line 351, ../sass/screen.scss */
+  .portfolio-item-slider {
+    width: 385px;
+    margin-left: 33px;
+  }
+
+  /* line 355, ../sass/screen.scss */
+  .portfolio-thumb-slider {
+    width: 385px;
+    height: inherit;
+  }
+
+  /* line 359, ../sass/screen.scss */
+  .wrapper-gallery {
+    padding-left: 40px;
+    max-width: 385px;
+  }
+
+  /* line 363, ../sass/screen.scss */
+  .bootleggers {
+    margin-left: 0;
+  }
+
+  /* line 366, ../sass/screen.scss */
+  footer {
+    font-size: 20px;
+  }
+  /* line 368, ../sass/screen.scss */
+  footer .rights {
+    font-size: 16px;
+  }
+  /* line 371, ../sass/screen.scss */
+  footer .mail-logo {
+    padding-left: 15px;
+    padding-top: 0px;
+  }
+}
+@media screen and (max-width: 375px) {
+  /* line 381, ../sass/screen.scss */
+  .subscribe .sub-title {
+    padding-left: 38px;
+  }
+  /* line 384, ../sass/screen.scss */
+  .subscribe .inp-f {
+    width: 285px;
+  }
+  /* line 387, ../sass/screen.scss */
+  .subscribe .game-logo {
+    margin-left: 45px;
+  }
+
+  /* line 391, ../sass/screen.scss */
+  ul {
+    padding-left: 0;
+  }
+
+  /* line 394, ../sass/screen.scss */
+  .gallery {
+    max-width: 100%;
+  }
+
+  /* line 397, ../sass/screen.scss */
+  .portfolio-item-slider {
+    width: 320px;
+    margin-left: 22px;
+  }
+
+  /* line 401, ../sass/screen.scss */
+  .portfolio-thumb-slider {
+    width: 320px;
+    height: inherit;
+  }
+
+  /* line 405, ../sass/screen.scss */
+  .wrapper-gallery {
+    padding-left: 26px;
+    max-width: 320px;
+  }
+
+  /* line 409, ../sass/screen.scss */
+  footer {
+    font-size: 16px;
+  }
+  /* line 411, ../sass/screen.scss */
+  footer .rights {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 320px) {
+  /* line 419, ../sass/screen.scss */
+  .subscribe .sub-input {
+    margin-left: 0;
+  }
+  /* line 422, ../sass/screen.scss */
+  .subscribe .sub-title {
+    padding-left: 12px;
+  }
+  /* line 425, ../sass/screen.scss */
+  .subscribe .inp-f {
+    width: 255px;
+  }
+  /* line 428, ../sass/screen.scss */
+  .subscribe .game-logo {
+    margin-left: 30px;
+    margin-top: 60px;
+  }
+
+  /* line 433, ../sass/screen.scss */
+  .bootleggers {
+    font-size: 30px;
+    margin-bottom: 35;
+  }
+
+  /* line 437, ../sass/screen.scss */
+  .gallery {
+    max-width: 100%;
+  }
+
+  /* line 440, ../sass/screen.scss */
+  .portfolio-item-slider {
+    width: 280px;
+    margin-left: 22px;
+  }
+
+  /* line 444, ../sass/screen.scss */
+  .portfolio-thumb-slider {
+    width: 280px;
+    height: inherit;
+  }
+
+  /* line 448, ../sass/screen.scss */
+  .wrapper-gallery {
+    padding-left: 26px;
+    max-width: 280px;
+  }
 }
